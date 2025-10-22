@@ -2,6 +2,7 @@ import { motion } from 'motion/react';
 import { Github, Linkedin, Mail, ArrowDown } from 'lucide-react';
 import { Button } from './ui/button';
 import { AnimatedBackground } from './AnimatedBackground';
+import Headshot from '../assets/Headshot.jpg';
 
 export function Hero() {
   const scrollToSection = (id: string) => {
@@ -28,7 +29,7 @@ export function Hero() {
           >
             <div className="w-48 h-48 bg-gradient-to-br from-green-600 to-emerald-500 rounded-full mx-auto flex items-center justify-center shadow-lg shadow-green-500/50 p-1">
               <img
-                src="/images/Headshot.jpg"
+                src={Headshot}
                 alt="Adrian Lopez"
                 className="w-full h-full rounded-full object-cover"
               />
