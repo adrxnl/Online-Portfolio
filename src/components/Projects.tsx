@@ -4,13 +4,14 @@ import { Badge } from './ui/badge';
 import { Button } from './ui/button';
 import { ExternalLink, Github } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import ColorConnect from '../assets/ColorconnectSS.png';
 
 export function Projects() {
   const projects = [
     {
       title: 'ColorConnect',
       description: 'An innovative online tool for colorblind users to upload images and adjust color settings for enhanced visibility and experience.',
-      image: '/images/ColorconnectSS.PNG',
+      image: ColorConnect,
       tags: ['HTML', 'CSS', 'JavaScript', 'Firebase'],
       demoUrl: 'https://colorconnectunt.netlify.app/',
       githubUrl: 'https://github.com/adrxnl/ColorConnect'
