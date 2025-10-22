@@ -1,6 +1,7 @@
 
   {
-      "name": "adrians-portfolio",
+    "homepage": "https://adrxnl.github.io/Online-Portfolio",  
+    "name": "adrians-portfolio",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
